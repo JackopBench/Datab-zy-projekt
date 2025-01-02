@@ -1,4 +1,4 @@
-# Databázy-projekt
+# Databázové technológie - semestrálny projekt
 
 ## 1. Úvod a popis zdrojových dát
 Cieľom semestrálneho projektu je analyzovať dáta reprezentujúce predaj digitálnej hudby, ktoré zachytávajú informácie o skladbách, albumoch, interpretoch, zákazníkoch, zamestnancoch a faktúrach.
