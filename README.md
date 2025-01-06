@@ -78,8 +78,7 @@ COPY INTO (názov tabulky)
 
 Takto som importoval dáta z csv. súboru postupne do každej tabuľky.
 
-#### Teraz, keď už mám vytvorené tabuľky, ktoré obsahujú pôvodné dáta, tak som začal vytvárať multi-dimenzionálny model.
-#### Prvý krok je vytvoriť dimenzionálne tabuľky. Uvediem príkaz pre tvorbu každej tabuľky zvlášť:
+#### Teraz, keď už mám vytvorené tabuľky, ktoré obsahujú pôvodné dáta, tak som začal vytvárať multi-dimenzionálny model. Prvý krok je vytvoriť dimenzionálne tabuľky. Uvediem príkaz pre tvorbu každej tabuľky zvlášť:
 
 Prvá dimenzia bola vytvorená týmto príkazom:
 
@@ -97,7 +96,7 @@ SELECT DISTINCT
         ELSE 'Weekday'  
     END AS DayType  
 FROM Invoice i;  
-...................................................................................................................
+...................................................................................................................  
 Druhá dimenzia:
 
 CREATE TABLE Dim_Genre AS  
@@ -105,7 +104,7 @@ SELECT DISTINCT
     g.GenreId AS GenreID,  
     g.Name AS GenreName  
 FROM Genre g;  
-....................................................................................................................
+....................................................................................................................  
 Tretia dimenzia:
 
 CREATE TABLE Dim_Customer AS  
@@ -124,7 +123,7 @@ SELECT DISTINCT
     c.Email AS Email,  
     c.SupportRepId AS SupportRepID  
 FROM Customer c;  
-.......................................................................................................................
+.......................................................................................................................  
 Štvrtá dimenzia:
 
 CREATE TABLE Dim_Album AS  
@@ -132,7 +131,7 @@ SELECT DISTINCT
     a.AlbumId AS AlbumID,  
     a.Title AS AlbumTitle,  
 FROM Album a;  
-........................................................................................................................
+........................................................................................................................  
 Piata dimenzia:
 
 CREATE TABLE Dim_Track AS  
@@ -147,7 +146,7 @@ SELECT DISTINCT
     t.Bytes AS TrackSize,  
     t.UnitPrice AS Price  
 FROM Track t;  
-.........................................................................................................................
+.........................................................................................................................  
 Šiesta dimenzia:
 
 CREATE TABLE Dim_Artist AS  
@@ -155,7 +154,7 @@ SELECT DISTINCT
     a.ArtistId AS ArtistID,  
     a.Name AS ArtistName  
 FROM Artist a;  
-.........................................................................................................................
+.........................................................................................................................  
 Nakoniec som nasledujúcim príkazom vytvoril centrálnu (faktovú) tabuľku:
 
 CREATE TABLE Fact_Sales AS  
@@ -181,7 +180,7 @@ JOIN Artist a ON al.ArtistId = a.ArtistId
 JOIN Genre g ON t.GenreId = g.GenreId  
 JOIN MediaType mt ON t.MediaTypeId = mt.MediaTypeId  
 JOIN Customer c ON i.CustomerId = c.CustomerId;  
-..........................................................................................................................
+..........................................................................................................................  
 
 ### Na záver som ešte odstránil staging tabuľky, aby sa optimalizovalo využitie miesta
 DROP TABLE IF EXISTS Track;  
