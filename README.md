@@ -47,18 +47,18 @@ CREATE STAGE my_stage;
 
 ### Následne som vytvoril jednotlivé tabuľky(zatiaľ neobsahujú žiadne dáta)
 
-Príklad príkazu, ktorý som použil na tvorbu tabuľky Track:
-CREATE TABLE Track (
-    TrackId INT PRIMARY KEY,
-    Name STRING,
-    AlbumId INT,
-    MediaTypeId INT,
-    GenreId INT,
-    Composer STRING,
-    Milliseconds INT,
-    Bytes INT,
-    UnitPrice DECIMAL(10, 2)
-);
+Príklad príkazu, ktorý som použil na tvorbu tabuľky Track:  
+CREATE TABLE Track (  
+    TrackId INT PRIMARY KEY,  
+    Name STRING,  
+    AlbumId INT,  
+    MediaTypeId INT,  
+    GenreId INT,  
+    Composer STRING,  
+    Milliseconds INT,  
+    Bytes INT,  
+    UnitPrice DECIMAL(10, 2)  
+);  
 
 Týmto spôsobom som vytvoril aj zvyšné tabuľky.
 
