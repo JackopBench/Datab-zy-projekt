@@ -35,4 +35,4 @@ Môj navrhnutý multi-dimenzionálny (hviezdicový) model sa skladá z centráln
 * Dim_Track - obsahuje všetky informácie o jednotlivých pesničkách
 
 Štruktúra hviezdicového modelu je znázornená na diagrame nižšie:
-![multidimenzionaly model (hviezdicovy)](https://github.com/user-attachments/assets/f092b5d3-718e-4f5d-a1e4-34e107f72e94)
+![ssss](https://github.com/user-attachments/assets/36e76b08-a652-4fca-a1c6-60b43d1b5f31)
