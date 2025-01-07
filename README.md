@@ -227,3 +227,8 @@ Dashboard obsahuje 5 vizualizácií, ktoré poskytujú prehľad o kľúčových 
 ### Graf 5 
 * Tento graf zobrazuje priemernú dĺžku skladieb pre jednotlivé žánre. Umožňuje rýchle porovnanie toho, ktoré žánre obsahujú kratšie skladby a ktoré naopak dlhšie.
 ![Bez názvu](https://github.com/user-attachments/assets/f530c344-25e9-446e-b177-f150cabd67b4)
+
+
+
+
+Autor: Jakub Lavička
