@@ -198,3 +198,32 @@ DROP TABLE IF EXISTS Album;
 
 Výsledný hviezdicový model nám umožňuje efektívne analyzovať dáta z databázy Chinook, ako napríklad predaje skladieb, popularitu žánrov, výnosy jednotlivých interpretov či trendy v 
 počúvaní hudby v rôznych obdobiach.
+
+
+## 4. Vizualizácia dát
+
+Dashboard obsahuje 5 vizualizácií, ktoré poskytujú prehľad o kľúčových metrikách a trendoch týkajúcich sa predaja skladieb, zákazníkov a žánrov. Tieto vizualizácie odpovedajú na dôležité otázky a umožňujú lepšie pochopiť nákupné správanie zákazníkov, ich hudobné preferencie a výkonnosť jednotlivých žánrov a interpretov.
+
+### Graf 1 
+* Tento graf znázorňuje rebríček 15 najzárobkovejších interpretov na základe celkových tržieb generovaných predajom ich skladieb. Poskytuje prehľad o tom, ktorí umelci majú najväčší komerčný úspech v rámci 
+  databázy Chinook, a pomáha identifikovať trendy v hudobných preferenciách zákazníkov. Údaje v grafe zahŕňajú sumárne príjmy z predaja skladieb za všetky žánre a albumy, ktoré interpret zastupuje.
+  ![Bez názvu](https://github.com/user-attachments/assets/353b0f79-3d50-4939-b0a4-e895d747cc9d)
+
+### Graf 2
+* Tento graf znázorňuje rebríček najzárobkovejších žánrov na základe celkových tržieb generovaných predajom skladieb v rámci každého žánru. Poskytuje prehľad o tom, ktoré hudobné štýly sú medzi zákazníkmi 
+  najobľúbenejšie a ktoré prinášajú najvyššie príjmy. Údaje v grafe zahŕňajú sumárne príjmy z predaja všetkých skladieb priradených k jednotlivým žánrom.
+![Bez názvu](https://github.com/user-attachments/assets/bcfd781e-abf9-4e6b-bbcd-d15818e9eff2)
+
+### Graf 3 
+* Tento graf znázorňuje predaj v jednotlivých štvrťrokoch, pričom ukazuje celkové tržby generované predajom skladieb v rámci každého štvrťroka. Vizualizácia umožňuje identifikovať sezónne trendy a zistiť, ktoré 
+  obdobia roka prinášajú najvyššie príjmy. Podľa tohto grafu je však rozdieľ v predajoch v jednotlivých štvrťrokoch minimálny.
+![Bez názvu](https://github.com/user-attachments/assets/6483af3d-f25f-4cc6-b2f3-08bbc83d0821)
+
+### Graf 4 
+* Tento graf porovnáva predaj skladieb počas víkendov a pracovných dní. Zobrazuje rozdiely v počte predaných skladieb podľa typu dňa, čo poskytuje prehľad o tom, kedy zákazníci najčastejšie nakupujú hudbu.
+  Na grafe môžme vidieť, že predaj hudby je cez pracovné dni niekoľko násobne vyšší ako cez víkend.
+![Bez názvu](https://github.com/user-attachments/assets/a80cf0e5-e2ac-4451-9eaa-4bb932f2f221)
+
+### Graf 5 
+* Tento graf zobrazuje priemernú dĺžku skladieb pre jednotlivé žánre. Umožňuje rýchle porovnanie toho, ktoré žánre obsahujú kratšie skladby a ktoré naopak dlhšie.
+![Bez názvu](https://github.com/user-attachments/assets/f530c344-25e9-446e-b177-f150cabd67b4)
